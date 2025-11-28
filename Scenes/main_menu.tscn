@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlqluv2j1dsv6"]
+
+[ext_resource type="Texture2D" uid="uid://dug7ve760ivtl" path="res://UI/Screenshot 2024-09-03 202407.png" id="1_nv7dv"]
+[ext_resource type="Texture2D" uid="uid://cujilgxlpk0o8" path="res://UI/Cool Text - Egg Runner 482026251695013.png" id="2_3lbst"]
+
+[node name="MainMenu" type="Node"]
+
+[node name="Background" type="TextureRect" parent="."]
+texture_filter = 1
+offset_left = -1.0
+offset_top = -3.0
+offset_right = 1320.0
+offset_bottom = 741.0
+scale = Vector2(0.639999, 0.559999)
+texture = ExtResource("1_nv7dv")
+
+[node name="Title" type="TextureRect" parent="."]
+modulate = Color(0.772179, 0.67051, 0.881455, 1)
+self_modulate = Color(0.972175, 0.571043, 0.958784, 1)
+offset_left = 204.0
+offset_top = 71.0
+offset_right = 755.0
+offset_bottom = 255.0
+scale = Vector2(0.837518, 0.815184)
+texture = ExtResource("2_3lbst")
+
+[node name="Crystal" type="Button" parent="."]
+modulate = Color(0.903598, 0.903598, 0.903598, 1)
+offset_left = 192.0
+offset_top = 245.0
+offset_right = 305.0
+offset_bottom = 276.0
+scale = Vector2(1.35848, 1.60253)
+text = "Crystal Mines"
+
+[node name="Fossil" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0

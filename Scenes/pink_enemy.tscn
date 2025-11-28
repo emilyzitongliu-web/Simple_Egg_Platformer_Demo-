@@ -1,0 +1,214 @@
+[gd_scene load_steps=45 format=3 uid="uid://cy6sbqh2evmd6"]
+
+[ext_resource type="Texture2D" uid="uid://7g0aubhgdq8c" path="res://Enemy/Idle 02.png" id="1_5vkks"]
+[ext_resource type="Script" path="res://SCENES/GameObjects/pink_enemy.gd" id="1_ay7u8"]
+[ext_resource type="Texture2D" uid="uid://m58kuah22hoy" path="res://Enemy/Idle 03.png" id="2_ejixc"]
+[ext_resource type="Texture2D" uid="uid://l4w0qrpxeofe" path="res://NEw pack blood/1/1_1.png" id="2_euppv"]
+[ext_resource type="Texture2D" uid="uid://bs3n6ld6voqgr" path="res://NEw pack blood/1/1_2.png" id="3_jdp0p"]
+[ext_resource type="Texture2D" uid="uid://bxmwyk3fxcymq" path="res://Enemy/Idle 04.png" id="3_ql86t"]
+[ext_resource type="Texture2D" uid="uid://cbug34sn6lt5" path="res://Enemy/Idle 05.png" id="4_lryhc"]
+[ext_resource type="Texture2D" uid="uid://cag66e8lhm575" path="res://NEw pack blood/1/1_3.png" id="4_xttxk"]
+[ext_resource type="Texture2D" uid="uid://bo4n7rle4ptyi" path="res://Enemy/Idle 06.png" id="5_11g7f"]
+[ext_resource type="Texture2D" uid="uid://bxdysshda6l02" path="res://NEw pack blood/1/1_4.png" id="5_y50ul"]
+[ext_resource type="Texture2D" uid="uid://qpw8g2pp0278" path="res://Enemy/Idle 07.png" id="6_cs64k"]
+[ext_resource type="Texture2D" uid="uid://c42fhfk4fhcbm" path="res://NEw pack blood/1/1_5.png" id="6_iagbq"]
+[ext_resource type="Texture2D" uid="uid://bjybh04oj3ccd" path="res://NEw pack blood/1/1_6.png" id="7_1nm6v"]
+[ext_resource type="Texture2D" uid="uid://bydc8o314em4w" path="res://Enemy/Idle 08.png" id="7_xlko3"]
+[ext_resource type="Texture2D" uid="uid://c5fnn11uu1wuh" path="res://NEw pack blood/1/1_7.png" id="8_0hyc7"]
+[ext_resource type="Texture2D" uid="uid://dufwkrs1877e4" path="res://NEw pack blood/1/1_8.png" id="9_udll4"]
+[ext_resource type="Texture2D" uid="uid://2uhrtwpw020i" path="res://NEw pack blood/1/1_9.png" id="10_44e6u"]
+[ext_resource type="Texture2D" uid="uid://bggwannrkll02" path="res://NEw pack blood/1/1_10.png" id="11_4xhqn"]
+[ext_resource type="Texture2D" uid="uid://ih2iochldruv" path="res://NEw pack blood/2/1_6.png" id="12_3qmym"]
+[ext_resource type="Texture2D" uid="uid://b4385tvh0u8oe" path="res://NEw pack blood/2/1_7.png" id="13_6s1px"]
+[ext_resource type="Texture2D" uid="uid://bmomjxou4x1fl" path="res://NEw pack blood/2/1_8.png" id="14_smx7h"]
+[ext_resource type="Texture2D" uid="uid://o6yk1mi27fe2" path="res://NEw pack blood/2/1_9.png" id="15_0nhsv"]
+[ext_resource type="Texture2D" uid="uid://c1p60t4gsdoyi" path="res://NEw pack blood/2/1_10.png" id="16_v8u7t"]
+[ext_resource type="Texture2D" uid="uid://ddimeb0vk5erc" path="res://NEw pack blood/2/1_12.png" id="17_w3xcy"]
+[ext_resource type="Texture2D" uid="uid://b4ykbw7bvkwx7" path="res://NEw pack blood/2/1_13.png" id="18_6hoih"]
+[ext_resource type="Texture2D" uid="uid://b10o3wl4nuaqf" path="res://NEw pack blood/2/1_14.png" id="19_xlbsn"]
+[ext_resource type="Texture2D" uid="uid://dqs0le2c04ym0" path="res://NEw pack blood/2/1_15.png" id="20_hygnd"]
+[ext_resource type="Texture2D" uid="uid://b5eng2c6bjqo6" path="res://NEw pack blood/2/1_16.png" id="21_k145d"]
+[ext_resource type="Texture2D" uid="uid://di8b4poa0tq0j" path="res://NEw pack blood/2/1_17.png" id="22_32n26"]
+[ext_resource type="Texture2D" uid="uid://0wpj6qddd4gn" path="res://NEw pack blood/2/1_18.png" id="23_ay5hd"]
+[ext_resource type="Texture2D" uid="uid://dg3ewpa00mijb" path="res://NEw pack blood/2/1_19.png" id="24_i4ljn"]
+[ext_resource type="Texture2D" uid="uid://c7flpcdkm2cio" path="res://NEw pack blood/2/1_20.png" id="25_0g00j"]
+[ext_resource type="Texture2D" uid="uid://xiwy1tt2ahu2" path="res://NEw pack blood/2/1_21.png" id="26_aypx3"]
+[ext_resource type="Texture2D" uid="uid://ifhd4ms0aafe" path="res://NEw pack blood/2/1_22.png" id="27_wneeb"]
+[ext_resource type="Texture2D" uid="uid://bx7r16o4mk8vq" path="res://NEw pack blood/2/1_23.png" id="28_bnqs7"]
+[ext_resource type="Texture2D" uid="uid://cw2wxj8l8ia1n" path="res://NEw pack blood/2/1_24.png" id="29_k8ubo"]
+[ext_resource type="Texture2D" uid="uid://c0qwn6cddtml3" path="res://NEw pack blood/2/1_25.png" id="30_o0s1e"]
+[ext_resource type="Texture2D" uid="uid://dlcj2jg34uutc" path="res://NEw pack blood/2/1_26.png" id="31_8paxw"]
+[ext_resource type="Texture2D" uid="uid://b4uy0adlo6mf5" path="res://NEw pack blood/2/1_27.png" id="32_51hie"]
+[ext_resource type="Texture2D" uid="uid://bh7gipl3uqnnc" path="res://NEw pack blood/2/1_28.png" id="33_mdu4f"]
+[ext_resource type="Texture2D" uid="uid://cgw3a2vsut6ox" path="res://NEw pack blood/2/1_11.png" id="34_eq0nb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h3m0v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_euppv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_jdp0p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xttxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_y50ul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_iagbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_1nm6v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_0hyc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_udll4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_44e6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_4xhqn")
+}],
+"loop": false,
+"name": &"Blood 1",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_5vkks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ejixc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ql86t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_lryhc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_11g7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_cs64k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_xlko3")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_3qmym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_6s1px")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_smx7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_0nhsv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_v8u7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_w3xcy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_6hoih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_xlbsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_hygnd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_k145d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_32n26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ay5hd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_i4ljn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_0g00j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_aypx3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_wneeb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_bnqs7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_k8ubo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_o0s1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_8paxw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_51hie")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_mdu4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_eq0nb")
+}],
+"loop": false,
+"name": &"blood",
+"speed": 20.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8w1su"]
+size = Vector2(21.4074, 25.9091)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4wjxl"]
+size = Vector2(19, 23)
+
+[node name="PinkEnemy" type="RigidBody2D"]
+script = ExtResource("1_ay7u8")
+
+[node name="AnimatedEnemy" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0.750004, 0)
+scale = Vector2(0.75, 0.733333)
+sprite_frames = SubResource("SpriteFrames_h3m0v")
+animation = &"Idle"
+autoplay = "Idle"
+offset = Vector2(0, -1.36364)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -0.499997)
+scale = Vector2(0.794118, 0.733333)
+shape = SubResource("RectangleShape2D_8w1su")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-0.5, -2.5)
+shape = SubResource("RectangleShape2D_4wjxl")
+
+[connection signal="animation_finished" from="AnimatedEnemy" to="." method="_on_animated_enemy_animation_finished"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
